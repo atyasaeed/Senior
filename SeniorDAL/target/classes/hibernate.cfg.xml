@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3308/senior_app?zeroDateTimeBehavior=convertToNull</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<mapping class="net.seniorsteps.senior.dal.entity.DeliveryArea"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Product"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.City"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Area"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Branch"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.AdminUser"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.ProviderUser"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Order"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Provider"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.ConsumerAddress"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Category"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.Consumer"/>
+		<mapping class="net.seniorsteps.senior.dal.entity.OrderItem"/>
+	</session-factory>
+</hibernate-configuration>

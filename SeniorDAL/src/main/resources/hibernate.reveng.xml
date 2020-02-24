@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+	<schema-selection match-catalog="senior_app"/>
+	<table-filter match-name="provider_user"/>
+	<table-filter match-name="admin_user"/>
+	<table-filter match-name="order"/>
+	<table-filter match-name="consumer"/>
+	<table-filter match-name="order_item"/>
+	<table-filter match-name="area"/>
+	<table-filter match-name="product"/>
+	<table-filter match-name="consumer_address"/>
+	<table-filter match-name="provider"/>
+	<table-filter match-name="delivery_area"/>
+	<table-filter match-name="city"/>
+	<table-filter match-name="category"/>
+	<table-filter match-name="branch"/>
+</hibernate-reverse-engineering>

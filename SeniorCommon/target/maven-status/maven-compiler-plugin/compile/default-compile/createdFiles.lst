@@ -1,0 +1,4 @@
+net\seniorsteps\senior\common\constant\SeniorConstant.class
+net\seniorsteps\senior\common\bean\CityBean.class
+net\seniorsteps\senior\common\bean\AreaBean.class
+net\seniorsteps\senior\common\bean\ProductBean.class

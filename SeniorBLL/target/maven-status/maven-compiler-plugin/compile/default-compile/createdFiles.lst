@@ -1,0 +1,8 @@
+net\seniorsteps\bll\SeniorBLGateway.class
+net\seniorsteps\bll\transformer\AreaTransformer.class
+net\seniorsteps\bll\manager\impl\MenuManagerImpl.class
+net\seniorsteps\bll\transformer\CommonTransformer.class
+net\seniorsteps\bll\manager\MenuManager.class
+net\seniorsteps\bll\transformer\CityTransformer.class
+net\seniorsteps\bll\manager\LookupsManager.class
+net\seniorsteps\bll\manager\impl\LookupsManagerImpl.class
